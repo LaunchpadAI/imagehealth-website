@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  background: #12130E;
+  color: #ECEAE3;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+html { scroll-behavior: smooth; }
+
+/* Subtle scrollbar styling for the dark theme */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: #12130E; }
+::-webkit-scrollbar-thumb { background: #2A2D24; border-radius: 8px; }
+::-webkit-scrollbar-thumb:hover { background: #3A3E32; }
